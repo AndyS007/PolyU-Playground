@@ -1,0 +1,43 @@
+.story-user {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.story-head {
+    display: inline;
+    line-height: 16px;
+}
+
+.create-time-display {
+    padding-top: 2px;
+    font-size: 0.6vw;
+    color: gray;
+}
+
+.story-topic {
+    font-size: 1vw;
+    color: white;
+    background-color: lightslategray;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.story-title {
+    font-size: 1.5vw;
+    color: black;
+    font-weight: 700;
+}
+
+.story-content {
+    word-wrap: break-word;
+    white-space : normal
+}
+
+.story-content-pre {
+    font-family: Arial, Calibri, serif;
+    font-size: 1.0vw;
+    margin: var(--s) 0 0;
+    word-wrap: break-word;
+    white-space : pre-wrap;
+    text-align: justify;
+}

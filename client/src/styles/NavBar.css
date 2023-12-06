@@ -1,0 +1,65 @@
+.NavBar-container {
+  padding: var(--s) var(--m);
+}
+
+.NavBar-title {
+  color: var(--white);
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.NavBar-linkContainer {
+  margin-left: var(--l);
+
+}
+
+.NavBar-link,
+.NavBar-link:visited {
+  color: var(--white);
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.NavBar-link:hover {
+  opacity: 0.8;
+}
+
+.NavBar-link.NavBar-login {
+  opacity: 1;
+}
+
+.NavBar-link+.NavBar-link {
+  margin-left: var(--m);
+}
+
+.navbar-admin-link:hover {
+  color: white;
+}
+
+.login-container {
+  float: right;
+  margin-right: 1vw;
+}
+
+.NavBar-login-button {
+  height: 80%;
+}
+
+.logout-button {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 12px;
+  outline: none;
+}
+
+.logout-button:hover {
+  background-color: #737679;
+  color: white
+}

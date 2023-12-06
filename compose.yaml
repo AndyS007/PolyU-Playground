@@ -1,0 +1,58 @@
+services:
+  web:
+    container_name: playground
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - mongodb
+    environment:
+      - MONGO_URL=${MONGO_URL}
+      - DB_NAME=${DB_NAME}
+      - CLIENT_ID=${CLIENT_ID}
+    volumes:
+      - ./client:/app/client
+      - ./server:/app/server
+    networks:
+      - mongo-network
+    ports:
+      - 3001:5000
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    restart: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=andy
+      - MONGO_INITDB_ROOT_PASSWORD=Huang8874969
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - mongo-network
+    ports:
+      - 27017:27017
+
+  mongo_express:
+    image: mongo-express:latest
+    container_name: mongo_express
+    depends_on:
+      - mongodb
+    restart: always
+    environment:
+      - ME_CONFIG_MONGODB_SERVER=mongodb
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=andy
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=Huang8874969
+      - ME_CONFIG_BASICAUTH_USERNAME=andy
+      - ME_CONFIG_BASICAUTH_PASSWORD=Huang8874969
+    networks:
+      - mongo-network
+    ports:
+      - 8081:8081
+
+networks:
+  mongo-network:
+    external: true
+
+volumes:
+  mongo-data:
+    driver: local

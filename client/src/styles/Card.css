@@ -1,0 +1,54 @@
+.Card-container {
+  border: var(--darkgrey) 1px solid;
+  border-radius: var(--xs);
+  margin-top: 1.5vw;
+  display: block;
+  /*box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);*/
+  font-family: sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.Card-container:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.Card-container:first-of-type {
+  margin-top: var(--l);
+}
+
+.Card-story,
+.Card-commentSection {
+  padding: 8px 8px;
+}
+
+.Card-commentSection {
+  background-color: white;
+}
+
+.Card-commentBody {
+  margin: 0 0 var(--s);
+}
+
+.Card-comment-button {
+  padding-right: 1vw;
+}
+
+.comment-icon-link {
+  color: gray;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.comment-icon-link:active {
+  color: black;
+}
+
+.comment-icon-link:hover {
+  color: black;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}

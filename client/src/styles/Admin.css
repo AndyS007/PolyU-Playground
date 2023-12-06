@@ -1,0 +1,64 @@
+.admin-container {
+    margin-top: 43px;
+}
+
+.dashboard-label {
+    color: gray;
+    font-size: 15px;
+}
+
+.dashboard-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dashboard-link:hover,
+.dashboard-link:active {
+    color: gray;
+}
+
+.dashboard-link-delete {
+    color: gray;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dashboard-link-delete:hover,
+.dashboard-link-delete:active {
+    color: black;
+}
+
+.dashboard-delete-warning {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.dashboard-link-add-topic {
+    font-size: 17px;
+    color: gray;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dashboard-link-add-topic:hover,
+.dashboard-link-add-topic:active {
+    color: black;
+}
+
+.dashboard-topic-description {
+    width: 240px;
+    word-break:break-all;
+}
+
+.dashboard-link-user-op {
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dashboard-link-user-op:hover,
+.dashboard-link-user-op:active {
+    color: black;
+}

@@ -1,0 +1,51 @@
+.left-side-bar {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 43px;
+}
+
+@media screen and (max-width: 1000px){
+    .left-side-bar {display: none;}
+}
+
+.left-side-bar-text {
+    padding-left: 1vw;
+}
+
+.timeline-button {
+    font-weight: 400;
+}
+
+.topic-item {
+    font-weight: 400;
+}
+
+.home-left-side-bar-container {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 50px;
+    margin-top: 9px;
+}
+
+.home-left-side-flag {
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.home-left-side-nav-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.home-left-side-nav-link:hover {
+    color: white;
+    background-color: black;
+}

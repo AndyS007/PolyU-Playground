@@ -1,0 +1,58 @@
+.comment-section {
+    margin-top: 15px;
+}
+
+.comment-head {
+    display: inline;
+    line-height: 0.9vw;
+}
+
+.create-time-display {
+    font-size: 1vw;
+    color: gray;
+    margin-bottom: 0.5vw;
+}
+
+.comment-content {
+    font-size: 1.0vw;
+    word-break: break-all;
+}
+
+.reply-icon-link {
+    color: gray;
+    cursor: pointer;
+}
+
+.reply-icon-link:active {
+    color: black;
+}
+
+.reply-icon-link:hover {
+    color: black;
+}
+
+.new-comment {
+    margin-bottom: 10px;
+}
+
+.comment-block-label {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.single-reply-icon-link {
+    color: gray;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.single-reply-icon-link:active {
+    color: black;
+}
+
+.single-reply-icon-link:hover {
+    color: black;
+}
+

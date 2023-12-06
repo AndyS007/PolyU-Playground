@@ -1,0 +1,36 @@
+.App-container {
+  max-width: 960px;
+  padding: var(--m) var(--m);
+  margin: auto;
+}
+
+.page-not-found {
+  width: 100%;
+  height:50vh;
+  text-align: center;
+}
+
+.not-found-header {
+  margin-top: 40vh;
+}
+
+.not-found-paragraph {
+  margin-top: 2vh;
+  font-size: 1vw;
+}
+
+.back-to-last-link {
+  color: gray;
+  cursor: pointer;
+  font-size: 1vw;
+}
+
+.back-to-last-link:active {
+  color: black;
+}
+
+.back-to-last-link:hover {
+  color: black;
+}
+
+

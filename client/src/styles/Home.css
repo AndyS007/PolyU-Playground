@@ -1,0 +1,22 @@
+.sticky-bottom-right-button {
+    position: fixed;
+    right: 5%;
+    top: 90%;
+}
+
+.back-to-top-link {
+    color: gray;
+    cursor: pointer;
+}
+
+.back-to-top-link:active {
+    color: black;
+}
+
+.back-to-top-link:hover {
+    color: black;
+}
+
+.back-to-top-icon {
+    font-size: 2vw;
+}

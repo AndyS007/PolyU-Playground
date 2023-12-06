@@ -1,0 +1,11 @@
+.replies-block {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.single-reply {
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+}
