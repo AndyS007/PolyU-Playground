@@ -12,3 +12,8 @@ visit `http://localhost:5000`
 run `docker compose up -d`
 
 files in ./client and ./server is bind mounted into the docker container
+
+## Frontend
+React.js, bootstrap, React Router
+## Backend
+Node, Express.js, mongoDB, OAuth
